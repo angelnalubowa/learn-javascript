@@ -22,3 +22,8 @@ console.log(number);
 document.getElementById("p1").innerHTML = "Hello " + firstname;
 document.getElementById("p2").innerHTML = "youre probably " + age + " this year";
 document.getElementById("p3").innerHTML = "Student? " + student;
+
+//arithmetic expressions(operands, operators)
+let students = 20;
+student += 1; //students = students + 1;
+students -= 1; //students = students
