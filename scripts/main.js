@@ -44,3 +44,15 @@ console.log(extrastudents);
 
 let results = 1 + 2 * (3 + 4);
 console.log(results);
+
+//allow user input
+let username = window.prompt("whats your name?");
+console.log(username);
+
+document.getElementById("mybutton").onclick = function(){
+username = document.getElementById("mytext").value;
+console.log(username)
+document.getElementById("mylabel").innerHTML = "hello";
+}
+
+//type conversions
