@@ -1,7 +1,7 @@
 //introduction
 console.log("Hello world");
 console.log("We are leraning javascript");
-window.alert("WE GOT THIS!");
+//window.alert("WE GOT THIS!");
 
 //variables: a container for storing data
 /*let age;...declaration
@@ -46,8 +46,8 @@ let results = 1 + 2 * (3 + 4);
 console.log(results);
 
 //allow user input
-let username = window.prompt("whats your name?");
-console.log(username);
+/*let username = window.prompt("whats your name?");
+console.log(username);*/
 
 document.getElementById("mybutton").onclick = function(){
 username = document.getElementById("mytext").value;
@@ -56,3 +56,21 @@ document.getElementById("mylabel").innerHTML = "hello";
 }
 
 //type conversions
+/*let ages = window.prompt("How old are you?");
+console.log(typeof ages);
+ages =Number(ages);
+console.log(typeof ages);
+ages += 1;
+console.log("Youre now ", ages, "years old");*/
+
+let x;
+let y;
+let z;
+
+x = Number(1);
+y = String(2);
+z = Boolean("");
+
+console.log(x, typeof x);
+console.log(y, typeof y);
+console.log(z, typeof z);
