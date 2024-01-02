@@ -76,12 +76,12 @@ console.log(y, typeof y);
 console.log(z, typeof z);
 
 //constants 
-let pi = 3.14159;
+const PI = 3.14159;
 let radius;
 let circumference;
 
-radius =window.prompt("Enter radius of a curcumference")
+radius = window.prompt("Enter radius of a curcumference");
 radius = Number(radius);
 
-circumference = 2 * pi * radius;
+circumference = 2 * PI * radius;
 console.log("The circumference is:", circumference);
