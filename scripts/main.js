@@ -88,12 +88,20 @@ console.log("The circumference is:", circumference);
 
 //mathematics
 //let x = 5;
-x = 2.5;
-x = Math.round(x);
+x = 2;
+/*x = Math.round(x);
 x = Math.floor(x);
 x = Math.ceil(x);
 x = Math.pow(x);
 x = Math.sqrt(x);
-x = Math.abs(x);
+x = Math.abs(x);*/
+y = 5;
+z = 7;
+let maximum;
+let minimum;
 
-console.log(x);
+maximum = Math.max(x, y, z);
+minimum = Math.min(x, y, z);
+console.log(minimum);
+
+console.log(Math.PI);
