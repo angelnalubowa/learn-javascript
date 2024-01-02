@@ -85,3 +85,15 @@ radius = Number(radius);
 
 circumference = 2 * PI * radius;
 console.log("The circumference is:", circumference);
+
+//mathematics
+//let x = 5;
+x = 2.5;
+x = Math.round(x);
+x = Math.floor(x);
+x = Math.ceil(x);
+x = Math.pow(x);
+x = Math.sqrt(x);
+x = Math.abs(x);
+
+console.log(x);
