@@ -80,7 +80,8 @@ const PI = 3.14159;
 let radius;
 let circumference;
 
-radius = window.prompt("Enter radius of a curcumference");
+//radius = window.prompt("Enter radius of a curcumference");
+radius = 6;
 radius = Number(radius);
 
 circumference = 2 * PI * radius;
@@ -105,3 +106,29 @@ minimum = Math.min(x, y, z);
 console.log(minimum);
 
 console.log(Math.PI);
+
+//hypotenuse 
+let a;
+let b;
+let c;
+
+// a = window.prompt("Enter side A");
+// a = Number(a);
+
+// b = window.prompt("Enter side B");
+// b = Number(b);
+
+// c = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
+// console.log(c);
+
+document.getElementById("submitbutton").onclick = function(){
+    a = document.getElementById("atextbox").value;
+    a = Number(a);
+    
+    b =document.getElementById("btextbox").value;
+    b = Number(b);
+    
+    c = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
+    
+document.getElementById("clabel").innerHTML = "Side c: " + c ;
+}
