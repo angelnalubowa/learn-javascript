@@ -1,3 +1,5 @@
-body{
- margin: auto;   
+#contLabel{
+    display: block;
+    text-align: center;
+    font-size: 50px;
 }

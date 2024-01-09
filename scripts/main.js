@@ -132,3 +132,19 @@ document.getElementById("submitbutton").onclick = function(){
     
 document.getElementById("clabel").innerHTML = "Side c: " + c ;
 }
+
+//countbtn
+let count ;
+
+document.getElementById("increaseBtn").onclick = function(){
+    count+=1;
+    document.getElementById("countLabel").innerHTML = count;
+}
+document.getElementById("resetBtn").onclick = function(){
+    count=0;
+    document.getElementById("countLabel").innerHTML = count;
+}
+document.getElementById("decreaseBtn").onclick = function(){
+    count-=1;
+    document.getElementById("countLabel").innerHTML = count;
+}
