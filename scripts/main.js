@@ -134,7 +134,7 @@ document.getElementById("clabel").innerHTML = "Side c: " + c ;
 }
 
 //countbtn
-let count ;
+let count=0;
 
 document.getElementById("increaseBtn").onclick = function(){
     count+=1;
