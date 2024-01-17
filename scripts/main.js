@@ -151,4 +151,3 @@ document.getElementById("decreaseBtn").onclick = function(){
     console.log(count);
     document.getElementById("contLabel").innerHTML =  count ;
 }
-//no internet connection
