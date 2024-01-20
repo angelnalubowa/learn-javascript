@@ -151,4 +151,3 @@ document.getElementById("decreaseBtn").onclick = function(){
     console.log(count);
     document.getElementById("contLabel").innerHTML =  count ;
 }
-//uyh76t6jyhi86tg
