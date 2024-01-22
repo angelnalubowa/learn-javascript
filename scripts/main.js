@@ -151,3 +151,4 @@ document.getElementById("decreaseBtn").onclick = function(){
     console.log(count);
     document.getElementById("contLabel").innerHTML =  count ;
 }
+//i have faled to make time
